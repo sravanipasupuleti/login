@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;}
+        .a{display: flex;
+        width: 650px;
+        height: 550px;
+    /border: 5px solid black;/}
+        .left{background-color: #327dff;
+        color: #fff;
+    width:40% ; padding: 40px 30px;}
+.left p{font-size: 16px;
+    margin-top: 30px;
+color: gray;}
+    .img{background-image: url(https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png);
+background-repeat: no-repeat;
+width: 100%;
+height: 400px;
+margin-top: 200px;
+margin-right: 100px;}
+.right{display: flex;
+flex-direction: column;
+padding: 50px 30px;
+justify-content: space-between;}
+.right form{display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.rebtn{background-color: #fb641b;
+color: #fff;
+border: none;
+padding: 14px 0px;
+font-size: 16px;}
+.right form input{ border: none;
+border-bottom:1px solid rgb(106,106,106) ;
+padding: 10px 0px;}
+.right form input::placeholder{font-size: 16px;}
+.right form p{margin-top: 10px;
+font-size: 11px;}
+a{text-decoration: none;
+color: #327dff;}
+    
+    </style>
+</head>
+<body>
+    <div class="a">
+    <div class="left">
+        <h1>Login</h1>
+        <p>Get access to your Orders,Wishlist and Recommendations</p>
+        <div class="img">
+
+        </div>
+    </div>
+    <div class="right">
+        <form action="">
+        <input type="text" placeholder="Enter Email/Moblie number">
+        <p>By continuing you agree to Flipkart's <a href="">Terms of use</a>and <a href="">Privacy Policy.</a></p>
+        <button class="rebtn">Request OTP</button>
+        </form>
+        <div>
+        <a href="">New to Flipkart? Create an account</a></div>
+    </div>
+     </div>
+    
+</body>
+</html>
